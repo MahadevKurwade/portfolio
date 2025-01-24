@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahadev Vijay Kurwade - Portfolio</title>
+    <style>
+       body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, rgba(255, 154, 158, 0.7), rgba(250, 208, 196, 0.7), rgba(250, 208, 196, 0.7), rgba(255, 209, 255, 0.7), rgba(161, 140, 209, 0.7));
+    background-size: 300% 300%;
+    animation: gradientAnimation 15s ease infinite;
+    color: #333;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-vector/gradient-geometric-shapes-dark-background_52683-33646.jpg?t=st=1721802188~exp=1721805788~hmac=9be7f3328f78eaecdee1c43dd694c5ec37709fab5c61603d6c7af36a499edd6a&w=1060'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; /* Ensure the image is behind the content */
+}
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        header .social-links {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+        header .social-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        header .social-links img {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(68, 68, 68, 0.8);
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+        .container {
+            display: flex;
+            padding: 20px 50px;
+            margin: 0 auto;
+            max-width: 1200px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+        }
+        .content {
+            width: 60%;
+            padding-right: 20px;
+        }
+        .content h2 {
+            font-size: 28px;
+            color: #444;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .content ul {
+            list-style: none;
+            padding: 0;
+        }
+        .content ul li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .content ul li:before {
+            content: "•";
+            color: #ff6347;
+            margin-right: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .image-container {
+            width: 40%;
+            padding-left: 20px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .contact-form button {
+            padding: 15px 30px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        footer .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        footer p {
+            margin: 10px 0;
+        }
+        footer .footer-social-links {
+            margin-top: 10px;
+        }
+        footer .footer-social-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer .footer-social-links img {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        footer .footer-social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mahadev Vijay Kurwade</h1>
+        <p>Phone: 8698821245 | Email: kurwademahadev@gmail.com </p>
+        <div class="social-links">
+            <a href="https://github.com/MahadevKurwade" target="_blank"><img src="https://via.placeholder.com/24x24?text=G" alt="GitHub"> GitHub</a>
+            <a href="https://www.linkedin.com/in/mahadev-kurwade-0b55061a4/" target="_blank"><img src="https://via.placeholder.com/24x24?text=L" alt="LinkedIn"> LinkedIn</a>
+            <a href="https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-jobseeker-profile--profile-one-frontend" target="_blank"><img src="https://via.placeholder.com/24x24?text=I" alt="Indeed"> Indeed</a>
+        </div>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <section id="home" class="section">
+                <h2>Home</h2>
+                <p>Welcome to my portfolio website. I am Mahadev Vijay Kurwade, a passionate IT professional with a strong interest in developing software, finding and resolving errors, and managing projects.</p>
+            </section>
+            <section id="about" class="section">
+                <h2>About Me</h2>
+                <p>I am a student of computer science. I have skills in logic building in programming languages with knowledge of Software Engineering and software testing. I am looking forward to my first work experience. Passionate IT professional with a strong interest in developing software, finding and resolving errors, and managing projects. Deep knowledge of core programming languages and modern technologies. Dedicated to continuous learning and problem-solving, aiming to contribute effectively to innovative projects and dynamic teams.</p>
+            </section>
+            <section id="education" class="section">
+                <h2>Education Details</h2>
+                <table>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>University/Board/College</th>
+                        <th>Percentage</th>
+                    </tr>
+                    <tr>
+                        <td>Master of Computer Applications (MCA) 2023-25</td>
+                        <td>Sant Gadge Baba Amravati University, Amravati</td>
+                        <td>Currently Enrolled</td>
+                    </tr>
+                    <tr>
+                        <td>Bachelor of Computer Application (BCA) 2020-2023</td>
+                        <td>Shri Shivaji Science College, Amravati</td>
+                        <td>SGBAU - 86.75</td>
+                    </tr>
+                    <tr>
+                        <td>HSC in Computer Science - 2018</td>
+                        <td>Bharat Madyamik Shala, Risod</td>
+                        <td>MSBTE Amravati - 80.30</td>
+                    </tr>
+                    <tr>
+                        <td>SSC - 2016</td>
+                        <td>Zilla Parishad Prathamik Shala, Pankanhergaon</td>
+                        <td>MSBTE Aurangabad - 90.20</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="skills" class="section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Languages: Marathi, Hindi, English</li>
+                    <li>Basic Knowledge of All Computer Hardware Components, Best Logic Building</li>
+                    <li>Programming Skills</li>
+                    <li>Core Languages: C, C++, Java, Python --- Certified</li>
+                    <li>Framework Languages: ASP.NET with C#, Visual Basic, MySQL</li>
+                    <li>Frontend Languages: HTML, CSS, JavaScript</li>
+                    <li>Open Electives: Data Security, Software Testing, Blockchain Technology</li>
+                    <li>Working with Software Technology: Office Suite, Turbo C++, DEV C++, Eclipse IDE, Visual Basic-2022</li>
+                    <li>Other: Lisp, Prolog, R</li>
+                </ul>
+            </section>
+            <section id="projects" class="section">
+                <h2>Projects</h2>
+                <h3>Opportunity Nest: Empowering Students through College Scholarship Management</h3>
+                <p>Description: Developed a comprehensive platform aimed at helping students find, apply for, and manage college scholarships. The system automates scholarship matching based on student profiles and academic achievements, streamlining the application process.</p>
+                <p>Technologies Used: Java, HTML, CSS, JavaScript, MySQL, Apache Tomcat</p>
+                <p>Role and Contributions: Designed and managed the MySQL database, Implemented the back-end logic using advanced Java, ensuring secure and efficient handling of student data. Conducted thorough testing and debugging to ensure the application was reliable and user-friendly.</p>
+                
+                <h3>Tutorials Website</h3>
+                <p>Description: website maked using simle formating and languages, portal inluded diffrent type of study material  </p>
+                <p>Technologies Used: HTML, CSS </p>
+                <p>Role and Contributions: owner </p>
+            </section>
+            <section id="resume" class="section">
+			<h2>Resume</h2>
+                <p><a href="https://drive.google.com/file/d/1XBZZfKrJBCdG_Yeg6Pz4AjaN6CHPmlQL/view?usp=sharing" target="_blank">Download Resume</a></p>
+                
+				
+                <h2>Contact</h2>
+                <a href="https://mail.google.com/mail/u/0/#sent?compose=jrjtXDztHcKbhdhvNvlzXmhnKhzNnGKKLKpnppTVgSFrsnDgvRlNqRxvtqQcJktmrSPtnLrS" target="_blank">Email : Kurwademahadev@gmail.com</a>
+            
+				
+				
+            </section>
+            
+        </div>
+        <div class="image-container">
+            <img src="mk.png" alt="Image 2">
+			<img src="https://sphero.com/cdn/shop/articles/coding_languages_1200x.png?v=1619126283" alt="Image 2">
+			
+			<img src="https://thecodewiz.com/static/media/top-kids-coding-languages.86a4d500.png" alt="Image 2">
+			 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThEdxqs5GMZ9K9no_PqDJGAqHJLZeSoyJy4g&s" alt="Image 2">
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Mahadev Vijay Kurwade. All rights reserved.</p>
+            <p>Designed by Mahadev Vijay Kurwade</p>
+            <div class="footer-social-links">
+                <a href="https://github.com/MahadevKurwade" target="_blank"><img src="https://via.placeholder.com/24x24?text=G" alt="GitHub"> GitHub</a>
+                <a href="https://www.linkedin.com/in/mahadev-kurwade-0b55061a4/" target="_blank"><img src="https://via.placeholder.com/24x24?text=L" alt="LinkedIn"> LinkedIn</a>
+                <a href="https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-jobseeker-profile--profile-one-frontend" target="_blank"><img src="https://via.placeholder.com/24x24?text=I" alt="Indeed"> Indeed</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function addImage() {
+            const imgContainer = document.querySelector('.image-container');
+            const newImg = document.createElement('img');
+            newImg.src = 'https://via.placeholder.com/300x300';
+            newImg.alt = 'New Image';
+            imgContainer.insertBefore(newImg, imgContainer.querySelector('p'));
+        }
+
+        // JavaScript for smooth scrolling
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+		
+    </script>
+</body>
+</html>
